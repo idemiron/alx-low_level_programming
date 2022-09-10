@@ -22,6 +22,13 @@ int main(void)
 		putchar(i);
 		i++;
 	}
+
+	l = 'a';
+	while (l <= 'f')
+	{
+		putchar(l);
+		l++;
+	}
 	putchar('\n');
 
 	return (0);
