@@ -3,10 +3,11 @@
 
 /**
  * puts2 - prints every other character
- * @str: string 
+ * @str: string
  *
  * Return: nothing
  */
+
 void puts2(char *str)
 {
 	int i = 0;
