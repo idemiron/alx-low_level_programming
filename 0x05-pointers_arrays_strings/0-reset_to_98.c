@@ -5,6 +5,7 @@
  * @n: int type pointer n
  * 
  * Description: Using pointer as parameter to update value it points to 98
+ * Return: value
  */
 void reset_to_98(int *n)
 {
