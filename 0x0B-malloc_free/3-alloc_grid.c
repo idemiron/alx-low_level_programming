@@ -45,5 +45,5 @@ int **alloc_gri(int width, int height)
 	{
 		return (NULL);
 	}
-<F12>}
+}
 
