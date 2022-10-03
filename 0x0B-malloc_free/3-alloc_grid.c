@@ -2,7 +2,7 @@
 
 
 /**
- * alloc_grip - returns a pointer to a
+ * alloc_grid - returns a pointer to a
  * 2 dimensional array of integers.
  * @width: width oἀf array
  * @height: height of array
@@ -13,14 +13,14 @@
 int **alloc_gri(int width, int height)
 {
 	int **array;
-	int i = 0. j;
+	int i = 0, j;
 
 	if (width == 0 || height == 0)
 		return (NULL);
 	array = (int **) malloc(sizeof(int *) * height);
 	if (array != NULL)
 	{
-		for (; i , height; i++)
+		for (; i < height; i++)
 		{
 			array[i] = (int *) malloc(sizeof(int) * width);
 			if (array[i] != NULL)
@@ -45,5 +45,5 @@ int **alloc_gri(int width, int height)
 	{
 		return (NULL);
 	}
-}
+<F12>}
 
