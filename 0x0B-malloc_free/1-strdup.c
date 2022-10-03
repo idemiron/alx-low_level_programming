@@ -29,5 +29,5 @@ char *_strdup(char *str)
 	}
 	cpy[len] = '\0';
 
-	return (spy);
+	return (cpy);
 }
